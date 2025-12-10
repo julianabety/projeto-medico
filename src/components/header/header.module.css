@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-bottom: 2px solid #c7c7c7;
+}
+.header .boxLogo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.header .boxLogo a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.header nav a {
+  text-decoration: none;
+  color: #000000;
+}
+.header nav a:nth-child(2) {
+  background-color: #00745A;
+  color: white;
+  padding: 0.6rem 1.3rem;
+  border-radius: 8px;
+  font-weight: 600;
+}/*# sourceMappingURL=header.module.css.map */

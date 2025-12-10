@@ -1,0 +1,35 @@
+.footer {
+  background-color: #0B0B0B;
+  color: white;
+  height: 45vh;
+  flex-wrap: wrap;
+}
+.footer .containerF {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6rem 2rem;
+}
+.footer .containerF article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 30vw;
+}
+.footer .containerF article .linhaImg {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer .containerF article .linhaLogo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.direito {
+  border: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}/*# sourceMappingURL=footer.module.css.map */

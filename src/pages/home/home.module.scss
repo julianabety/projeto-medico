@@ -1,0 +1,175 @@
+.boxSaude{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap:3rem;
+
+    .conteudo{
+        max-width: 480px;
+
+        h1{
+            font-size:3rem;
+            font-size: 700;
+            line-height: 1.1;
+            margin: 1.5rem 0;
+            color: #000;
+        }
+
+        p{
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 2rem;
+        }
+
+        .botoes{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            
+            .btnVerde{
+                padding: 12px 24px;
+                border-radius: 8px;
+                background-color: #00745A;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                color: #FFF;
+
+                &:hover{
+                    background-color: #00573F;
+                }
+            }
+
+            .btnBranco{
+                padding: 12px 24px;
+                border-radius: 8px;
+                background-color: #FFF;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                color: #00745A;
+                border: 2px solid #00745A;
+
+                &:hover{
+                    background-color: #F0F0F0;
+                }
+            }
+        }
+    }
+}
+
+//Estilizando a section - Nossa Missão
+.boxMissao{
+    height: 70vh;
+    background-color: #00745A;
+    color:white;
+    display: flex;
+    align-items: center;
+    
+    .box1{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+
+        h2{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+    }
+}
+
+.valores{
+    padding: 4rem 2rem;
+    display: flex;
+    gap: 2rem;;
+    justify-content: space-between;
+
+        article{
+            flex: 1;
+            border: 1px solid #EEE;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+
+            h3{
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+
+            }
+
+            p{
+                font-size: 1rem;
+                line-height: 1.6;
+                
+            }
+        }
+}
+
+// Estilizando a section - Nosso Impacto
+.boxImpacto{
+    height: 70vh;
+    color: black;
+    display: flex;
+    align-items: center;
+
+    .box2{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+
+        h2{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+    }
+}
+
+.impacto{
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+
+    article{
+    flex: 1;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+
+        h3{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color:#00745A;
+
+        }
+
+        p{
+            font-size: 0.8rem;
+            line-height: 1.6;
+                
+        }
+    }
+}
