@@ -9,16 +9,16 @@
     padding: 4rem 2rem;
 
     .cardsV{
-        width: 80%;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         gap:2rem;
 
         article{
         border: 1px solid black;
         border-radius: 8px;
-        padding: 3rem;
+        padding: 2rem;
         text-align: center;
             
             h2{
@@ -113,5 +113,46 @@ textarea{
 
   &:hover {
     background: #0d8059;
+  }
+}
+
+// responsivo celular
+
+@media (max-width: 768px) {
+  .boxVol{
+    height: auto;
+    flex-wrap: wrap;
+      h1{
+        font-size: 1.5rem;
+      }
+      p{
+        font-size: 0.95rem;
+        text-align: center;
+      }
+
+      .cardsV{
+        article{
+          flex-direction: column;
+          }
+          h2{
+            font-size: 1rem;
+            
+          p{
+            font-size: 0.75rem;
+          }
+        }
+      }
+  } 
+
+
+
+  .form{
+    height: auto;
+    .contForm{
+      width: auto;
+        h2{
+          font-size: 1rem;
+        }
+    }
   }
 }
