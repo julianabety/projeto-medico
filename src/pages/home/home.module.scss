@@ -173,3 +173,85 @@
         }
     }
 }
+
+// responsividade celular
+
+@media (max-width: 768px) {
+// resp saude
+.boxSaude{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .conteudo{
+        width: auto;
+        h1{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        p{
+            font-size: 0.95rem;
+            text-align: center;
+        }
+        .botoes{
+            justify-content: center;
+        }
+    }
+}
+.medicoImg{
+    display: none;
+}
+.logoSaude{
+    width: 90%;
+    
+}
+.botoes{
+    a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+//resp a nossa missão
+.boxMissao{
+    height: auto;
+    .box1{
+        flex-wrap: wrap;
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+.valores{
+    flex-wrap: wrap;
+    article{
+         h3{
+        font-size: 0.95rem;
+    }
+    }
+   
+}
+
+// resp - nosso impacto
+.boxImpacto{
+    height: auto;
+
+    .box2{
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+.impacto{
+    flex-wrap: wrap;
+}
+}

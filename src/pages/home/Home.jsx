@@ -7,8 +7,8 @@ const Home = () => {
     <main className={s.main}>
       <section className={s.boxSaude}>
         <div className={s.conteudo}>
-          <div>
-            <img src={Saude} alt="logotipo Saúde para todos"></img>
+          <div >
+            <img className={s.logoSaude}src={Saude} alt="logotipo Saúde para todos"></img>
           </div>
 
           <h1>Saúde e cuidado sem barreiras</h1>

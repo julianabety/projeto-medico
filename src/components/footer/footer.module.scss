@@ -7,9 +7,8 @@
     .containerF{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        padding: 6rem 2rem;
-        
+        justify-content: space-evenly;
+        padding: 6rem 3rem;        
 
         article{
             display: flex;
@@ -32,10 +31,56 @@
 }
 
 .direito{
-    border: 2px solid #000000;
+    border-top: 2px solid #000000;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     
+}
+
+
+// responsividade celular
+
+@media (max-width: 768px) {
+.footer{
+    height: auto;
+    width: auto;
+    
+
+    .containerF{
+        flex-wrap: wrap;
+        gap:2rem;
+
+        article{
+            h3{
+            font-size: 0.85rem;
+            }
+            p{
+                font-size: 0.75rem;
+            }
+            .linhaImg{
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+            .linhaLogo{
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+
+        
+    }
+
+    .direito{
+            p{
+                font-size: 0.8rem;
+                text-align: center;
+            }
+    }
+}
 }
